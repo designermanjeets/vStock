@@ -1,0 +1,33 @@
+.about .bluecarimg {
+    background-image: url('../img/car_right_back.png');
+}
+.vstock { 
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    background-size: contain;
+    width: 40px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.vstock-target {
+    background-image: url('../img/targetorange.png') ;
+}
+.icon-box:hover .vstock-target {
+    background-image: url('../img/Targetwhite.png') ;
+}
+.vstock-people {
+    background-image: url('../img/PeopleOrange.png') ;
+}
+.icon-box:hover .vstock-people {
+    background-image: url('../img/Peoplewhite.png') ;
+}
+.vstock-cards {
+    background-image: url('../img/CardOrange.png') ;
+}
+.icon-box:hover .vstock-cards {
+    background-image: url('../img/Cardwhite.png') ;
+}
