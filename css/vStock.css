@@ -31,3 +31,5 @@
 .icon-box:hover .vstock-cards {
     background-image: url('../img/Cardwhite.png') ;
 }
+
+.section-bg { background-color: rgba(0, 0, 0, .02); }
