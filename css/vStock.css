@@ -16,20 +16,30 @@
 .vstock-target {
     background-image: url('../img/targetorange.png') ;
 }
-.icon-box:hover .vstock-target {
-    background-image: url('../img/Targetwhite.png') ;
+.about .icon-box:hover .icon {
+    background-color: inherit
 }
 .vstock-people {
     background-image: url('../img/PeopleOrange.png') ;
 }
-.icon-box:hover .vstock-people {
-    background-image: url('../img/Peoplewhite.png') ;
-}
 .vstock-cards {
     background-image: url('../img/CardOrange.png') ;
 }
-.icon-box:hover .vstock-cards {
-    background-image: url('../img/Cardwhite.png') ;
-}
 
 .section-bg { background-color: rgba(0, 0, 0, .02); }
+.cardgreen { border-color: rgba(40, 167, 69, .3); }
+.cardgreen .card-header { background-color: rgba(40, 167, 69, .2); color: #28a745; }
+.cardgreen .card-text { color: #28a745; }
+.cardred { border-color: rgba(220, 53, 69, .3); }
+.cardred .card-header { background-color: rgba(220, 53, 69, .2); color: #dc3545; }
+.cardred .card-text { color: #dc3545; }
+
+.stockCard .card-body { padding: 5px; }
+.stockCard .card-header, .stockCard .card-footer { padding: 5px; font-size: 12px; }
+.stockCard .card-text { font-size: 40px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+
+.priorCard .card-header { background-color: #ff5621; }
+.priorCard .card-body { background-color: #584b48; }
+
+
+.bold { font-weight: bold; }
